@@ -1,0 +1,66 @@
+body {
+    background: #bee5e7;
+    font-family: comicsans;
+    max-width: 900px;
+    margin: auto;
+}
+
+.photo{
+    border: 5px solid #003249 ;
+    border-radius: 50%;
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title,  post_title {
+    color: #007EA7;
+    text-align: center;
+}
+
+.subtitle {
+    color: #527c80;
+    text-align: center;
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+.post {
+    border: 5px groove #69eeff;
+    background: #cce3e6;
+    padding: 10px;
+    color: #003249;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+
+.post_content {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.post_image {
+    margin-bottom: 15px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    color: #003249;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
